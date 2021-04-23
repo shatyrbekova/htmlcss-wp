@@ -70,7 +70,7 @@ h1{
     clear: both;
 }
 
- .comp-primo, .float-secondo, .float.secondo{
+ .comp-primo, .float-secondo, .float-terzo{
     height: 400px;
 }
 
@@ -93,7 +93,7 @@ h1{
     margin-left:25px;
 }
 
-.comp-primo img, .float-secondo img, .float.secondo img{
+ .comp-primo img, .float-secondo img{
   width: 100%;
 }
 
