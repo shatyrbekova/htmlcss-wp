@@ -2,26 +2,29 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:grey;
 }
 
 .container{
     width:1000px;
     margin: 0 auto;
 }
+
 header{
     height: 200px;
 }
-#logo{
-    height: 80px;
-    margin-left: 50px;
-}
+
 nav{
     margin-top: 10px;
     padding:20px;
 }
+
 ul{
     list-style: none;
 }
+
 li{
     display: inline-block;
     font-size: 15px;
@@ -33,64 +36,71 @@ li{
     margin-top:20px;
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
-    color: black;
     padding: 350px 350px 160px 60px ;
     margin-top: 20px;
-    border-radius: 15px 15px 15px 15px;
-
 }
+
 .content-1{
     width: 1000px;
-    height: 800px;
-    margin-top: 30px;
-    border: 2px solid black;
+    height: 650px;
+    margin-top: 40px;
+    border: 2px;
 }
+
 .comp-principale{
     height: 100px;
-   
 }
+
+h1{
+    color:black;
+}
+
 #margin{
-    background-color: royalblue;
-    margin-bottom: 20px;
-    padding: 30px;
-    height: 500px;
-   
+    margin-bottom: 15px;
+    /* padding: 10px; */
+    height: 500px;   
 }
+
 .fl{
     float: left;
 }
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
  .comp-primo, .float-secondo, .float.secondo{
     height: 400px;
 }
+
 .comp-primo{
     width: calc(25% - 30px);
     margin: 15px 15px 0 0;
     height: 150px;
-
  }
+
 .float-secondo{
     width: calc(50% - 45px);
     margin-top: 15px;
-    /* margin-right: 15px;
-    margin-left: 15px; */
     padding-right: 10px;
     padding-left:10px;
 }
+
 .float-terzo{
-    width: calc(25% - 30px);
+    width: calc(25% - 40px);
     margin-top:15px;
-    margin-left:15px;
+    margin-left:25px;
 }
+
 .comp-primo img, .float-secondo img, .float.secondo img{
   width: 100%;
 }
+
 footer{
     height:50px;
     margin: 30px;
     text-align: center;
+    color:black;
 }
